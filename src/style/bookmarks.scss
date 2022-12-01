@@ -1,0 +1,171 @@
+.bookmarks {
+    width: 1060px;
+    margin: 100px auto;
+
+    h1 {
+        font-size: 20px;
+        margin-bottom: 100px;
+    }
+
+    div {
+        width: 1060px;
+        margin: auto;
+        // background-color: aquamarine;
+
+        .bookempty{
+            font-size: 30px;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        .bookmarkicon {
+            position: absolute;
+            z-index: 50;
+            top: 0.875rem;
+            right: 1.25rem;
+            font-size: 1.25rem;
+            font-weight: 400;
+
+            * {
+                color: rgb(164, 164, 164);
+            }
+        }
+
+        .bookmarkiconOn {
+            position: absolute;
+            z-index: 50;
+            top: 0.875rem;
+            right: 1.25rem;
+            font-size: 1.25rem;
+            font-weight: 400;
+
+            * {
+                color: #3366ff;
+            }
+        }
+
+        a {
+            display: flex;
+            flex-direction: column;
+            width: calc(25% - 1.25rem);
+            margin: 0 0.625rem 3.125rem;
+            display: inline-block;
+            height: 22.8125rem;
+
+            .content {
+                list-style: none;
+                width: 100%;
+                height: auto;
+                height: 100%;
+
+                .contimg {
+                    border-radius: 0.25rem;
+                    width: 15.625rem;
+                    height: 50%;
+                    overflow: hidden;
+                    position: relative;
+                    border: 1px solid #ddd;
+
+                    img {
+                        // height: inherit;
+                        position: absolute;
+                        left: 50%;
+                        transform: translateX(-50%) translateY(-50%);
+                        top: 50%;
+                        // width: 100%;
+                    }
+
+                    // .bookmarkicon {
+                    //     position: absolute;
+                    //     z-index: 5;
+                    //     top: 0.875rem;
+                    //     right: 1.25rem;
+                    //     font-size: 1.25rem;
+                    //     font-weight: 400;
+                    //     *{
+                    //         color: rgb(164, 164, 164);
+                    //     }
+                    // }
+                    // .bookmarkiconOn{
+                    //     position: absolute;
+                    //     z-index: 5;
+                    //     top: 0.875rem;
+                    //     right: 1.25rem;
+                    //     font-size: 1.25rem;
+                    //     font-weight: 400;
+                    //     *{
+                    //         color: #3366ff;
+                    //     }
+                    // }
+                }
+
+                .cont_title {
+                    font-weight: 700;
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    color: #333;
+                    margin: 1.0625rem 0 0.5rem;
+                }
+
+                .cont_txt1 {
+                    font-size: 0.875rem;
+                    line-height: normal;
+                    text-align: left;
+                    word-break: break-word;
+                    width: 100%;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    margin-top: 0.625rem;
+                    color: #333;
+                    font-weight: 600;
+                }
+
+                .cont_txt2 {
+                    border-radius: 0.125rem;
+                    background-color: #fff;
+                    display: inline-block;
+                    font-size: 0.625rem;
+                    font-weight: 600;
+                    height: 1.1875rem;
+                    line-height: 1.1875rem;
+                    margin-top: 0.25rem;
+                    padding: 0 0.3125rem;
+                    border: 0.0625rem solid #00aead;
+                    color: #00aead;
+                }
+
+                .cont_txt3 {
+                    font-size: 14px;
+                    line-height: normal;
+                    text-align: left;
+                    word-break: break-word;
+                    width: 100%;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    margin-top: 10px;
+                    font-weight: 400;
+                    color: #999;
+                }
+
+                .cont_txt4 {
+                    margin-top: 10px;
+                    color: #333;
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-align: left;
+                    word-break: break-word;
+                    width: 100%;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+
+
+
+
+}
