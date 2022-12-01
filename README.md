@@ -18,11 +18,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### 4. Open API
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**ㅁㄴㅇㄹ**
 
 ㅁㄴㅇㄹ
 
-## Learn More
+## 5. 
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
